@@ -14,18 +14,19 @@
         <Font size="15.0" />
       </font>
     </Label>
-    <Label layoutX="78.0" fx:id="label1" layoutY="107.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false"/>
-    <Label layoutX="78.0" fx:id="label2" layoutY="159.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false"/>
-    <Label layoutX="78.0" fx:id="label3" layoutY="211.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false"/>
-    <Label layoutX="78.0" fx:id="label4" layoutY="263.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false"/>
-    <Label layoutX="78.0" fx:id="label5" layoutY="315.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false"/>
-    <TextField layoutX="304.0" fx:id="textbox1" layoutY="119.0" prefHeight="40.0" prefWidth="217.0" visible="false"/>
-    <TextField layoutX="304.0" fx:id="textbox2" layoutY="171.0" prefHeight="40.0" prefWidth="217.0" visible="false"/>
-    <TextField layoutX="304.0" fx:id="textbox3" layoutY="223.0" prefHeight="40.0" prefWidth="217.0" visible="false"/>
-    <TextField layoutX="304.0" fx:id="textbox4" layoutY="275.0" prefHeight="40.0" prefWidth="217.0" visible="false"/>
-    <TextField layoutX="304.0" fx:id="textbox5" layoutY="327.0" prefHeight="40.0" prefWidth="217.0" visible="false"/>
-    <Label layoutX="78.0" fx:id="label6" layoutY="367.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false"/>
-    <TextField layoutX="304.0" fx:id="textbox6" layoutY="379.0" prefHeight="40.0" prefWidth="217.0" visible="false"/>
+    <Label fx:id="label1" layoutX="78.0" layoutY="107.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
+    <Label fx:id="label2" layoutX="78.0" layoutY="159.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
+    <Label fx:id="label3" layoutX="78.0" layoutY="211.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
+    <Label fx:id="label4" layoutX="78.0" layoutY="263.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
+    <Label fx:id="label5" layoutX="78.0" layoutY="315.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
+    <TextField fx:id="textbox1" layoutX="304.0" layoutY="119.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
+    <TextField fx:id="textbox2" layoutX="304.0" layoutY="171.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
+    <TextField fx:id="textbox3" layoutX="304.0" layoutY="223.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
+    <TextField fx:id="textbox4" layoutX="304.0" layoutY="275.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
+    <TextField fx:id="textbox5" layoutX="304.0" layoutY="327.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
+    <Label fx:id="label6" layoutX="78.0" layoutY="367.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
+    <TextField fx:id="textbox6" layoutX="304.0" layoutY="379.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
     <Button layoutX="276.0" layoutY="493.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="149.0" text="Submit" />
+    <Button fx:id="show" layoutX="276.0" layoutY="578.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="149.0" text="Show" />
   </children>
 </AnchorPane>
