@@ -33,15 +33,12 @@ public class Main extends Application
     public void submit() throws Exception {
         String x=textbox.getText();
         int val=Integer.parseInt(x);
-        if(val==1)
-        {
-            Query query=new Query(ps,1);
+            Query query=new Query(ps,val);
             try {
                 query.launch();
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }
 
     }
 }

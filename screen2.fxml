@@ -26,7 +26,7 @@
     <TextField fx:id="textbox5" layoutX="304.0" layoutY="327.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
     <Label fx:id="label6" layoutX="78.0" layoutY="367.0" prefHeight="52.0" prefWidth="198.0" text="Label" visible="false" />
     <TextField fx:id="textbox6" layoutX="304.0" layoutY="379.0" prefHeight="40.0" prefWidth="217.0" visible="false" />
-    <Button layoutX="276.0" layoutY="493.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="149.0" text="Submit" />
-    <Button fx:id="show" layoutX="276.0" layoutY="578.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="149.0" text="Show" />
+    <Button layoutX="276.0" onAction="#submit" layoutY="493.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="149.0" text="Submit" />
+    <Button fx:id="show" onAction="#show" layoutX="276.0" layoutY="578.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="149.0" text="Show" />
   </children>
 </AnchorPane>
