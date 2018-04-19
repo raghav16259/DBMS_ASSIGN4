@@ -14,19 +14,19 @@
         <Font size="15.0" />
       </font>
     </Label>
-    <Button onAction="#submit" layoutX="249.0" layoutY="595.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="106.0" text="Submit" />
-    <TextField layoutX="201.0" fx:id="textbox" layoutY="534.0" prefHeight="37.0" prefWidth="202.0" />
-    <Label layoutX="71.0" layoutY="74.0" prefHeight="37.0" prefWidth="309.0" text="Query 1:" />
-    <Label layoutX="70.0" layoutY="111.0" prefHeight="37.0" prefWidth="309.0" text="Query 2:" />
-    <Label layoutX="71.0" layoutY="148.0" prefHeight="37.0" prefWidth="309.0" text="Query 3:" />
-    <Label layoutX="71.0" layoutY="185.0" prefHeight="37.0" prefWidth="309.0" text="Query 4:" />
-    <Label layoutX="71.0" layoutY="222.0" prefHeight="37.0" prefWidth="309.0" text="Query 5:" />
-    <Label layoutX="71.0" layoutY="259.0" prefHeight="37.0" prefWidth="309.0" text="Query 6:" />
-    <Label layoutX="71.0" layoutY="296.0" prefHeight="37.0" prefWidth="309.0" text="Query 7:" />
-    <Label layoutX="70.0" layoutY="333.0" prefHeight="37.0" prefWidth="309.0" text="Query 8:" />
-    <Label layoutX="71.0" layoutY="370.0" prefHeight="37.0" prefWidth="309.0" text="Query 9:" />
-    <Label layoutX="71.0" layoutY="407.0" prefHeight="37.0" prefWidth="309.0" text="Query 10:" />
-    <Label layoutX="71.0" layoutY="444.0" prefHeight="37.0" prefWidth="309.0" text="Query 11:" />
-    <Label layoutX="71.0" layoutY="481.0" prefHeight="37.0" prefWidth="309.0" text="Query 12:" />
+    <Button layoutX="249.0" layoutY="595.0" mnemonicParsing="false" onAction="#submit" prefHeight="44.0" prefWidth="106.0" text="Submit" />
+    <TextField fx:id="textbox" layoutX="201.0" layoutY="534.0" prefHeight="37.0" prefWidth="202.0" />
+    <Label layoutX="71.0" layoutY="74.0" prefHeight="37.0" prefWidth="309.0" text="Query 1: Display entire table input by user" />
+    <Label layoutX="70.0" layoutY="111.0" prefHeight="37.0" prefWidth="333.0" text="Query 2: Find runs and wickets corresponding to a player" />
+    <Label layoutX="71.0" layoutY="148.0" prefHeight="37.0" prefWidth="356.0" text="Query 3: Find fixtures corresponding to either of two teams" />
+    <Label layoutX="70.0" layoutY="185.0" prefHeight="37.0" prefWidth="455.9999000000025" text="Query 4: Find all teams having number of wins greater than the value input by user" />
+    <Label layoutX="71.0" layoutY="222.0" prefHeight="37.0" prefWidth="309.0" text="Query 5: Print number of players in each team" />
+    <Label layoutX="71.0" layoutY="259.0" prefHeight="37.0" prefWidth="309.0" text="Query 6: Show stats of captains of all teams" />
+    <Label layoutX="71.0" layoutY="296.0" prefHeight="37.0" prefWidth="309.0" text="Query 7: Show top run scorer of team name input by user" />
+    <Label layoutX="70.0" layoutY="333.0" prefHeight="37.0" prefWidth="309.0" text="Query 8: Show fixtures in city name input by user" />
+    <Label layoutX="70.0" layoutY="356.0" prefHeight="65.0" prefWidth="531.0" text="Query 9: Show teams which have more wickets than value input by user" />
+    <Label layoutX="71.0" layoutY="407.0" prefHeight="37.0" prefWidth="383.0" text="Query 10: Show the team having least run rate in points table" />
+    <Label layoutX="71.0" layoutY="444.0" prefHeight="37.0" prefWidth="342.0" text="Query 11: Give stadium details of team name input by user" />
+    <Label layoutX="71.0" layoutY="481.0" prefHeight="37.0" prefWidth="383.0" text="Query 12: Give average runs and average wickets in the tournament " />
   </children>
 </AnchorPane>
